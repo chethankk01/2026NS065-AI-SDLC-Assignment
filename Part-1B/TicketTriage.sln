@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4F8A762-E3BF-45DF-A64E-4C449012D79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTriage.App", "src\TicketTriage.App\TicketTriage.App.csproj", "{DA1EF25F-564E-4018-BAB4-1C662DB74559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTriage.Cli", "src\TicketTriage.Cli\TicketTriage.Cli.csproj", "{BB1AC8D2-E2CD-4D4F-97E1-679AE6480DB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".harness", ".harness", "{C5C52995-A691-41AD-9B3D-CA3D63693EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTriage.Harness", ".harness\TicketTriage.Harness\TicketTriage.Harness.csproj", "{F03CD5B8-87DA-4760-875D-0EEA9428298B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{337A7CD8-A077-4F09-8D8C-EB3440C9377E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTriage.Tests", "tests\TicketTriage.Tests\TicketTriage.Tests.csproj", "{06D5C776-ACC5-47DB-BF7E-56BA88DF8E24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1EF25F-564E-4018-BAB4-1C662DB74559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1EF25F-564E-4018-BAB4-1C662DB74559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1EF25F-564E-4018-BAB4-1C662DB74559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1EF25F-564E-4018-BAB4-1C662DB74559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1AC8D2-E2CD-4D4F-97E1-679AE6480DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1AC8D2-E2CD-4D4F-97E1-679AE6480DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1AC8D2-E2CD-4D4F-97E1-679AE6480DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1AC8D2-E2CD-4D4F-97E1-679AE6480DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03CD5B8-87DA-4760-875D-0EEA9428298B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03CD5B8-87DA-4760-875D-0EEA9428298B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03CD5B8-87DA-4760-875D-0EEA9428298B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03CD5B8-87DA-4760-875D-0EEA9428298B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D5C776-ACC5-47DB-BF7E-56BA88DF8E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D5C776-ACC5-47DB-BF7E-56BA88DF8E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D5C776-ACC5-47DB-BF7E-56BA88DF8E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D5C776-ACC5-47DB-BF7E-56BA88DF8E24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA1EF25F-564E-4018-BAB4-1C662DB74559} = {F4F8A762-E3BF-45DF-A64E-4C449012D79F}
+		{BB1AC8D2-E2CD-4D4F-97E1-679AE6480DB3} = {F4F8A762-E3BF-45DF-A64E-4C449012D79F}
+		{F03CD5B8-87DA-4760-875D-0EEA9428298B} = {C5C52995-A691-41AD-9B3D-CA3D63693EDC}
+		{06D5C776-ACC5-47DB-BF7E-56BA88DF8E24} = {337A7CD8-A077-4F09-8D8C-EB3440C9377E}
+	EndGlobalSection
+EndGlobal

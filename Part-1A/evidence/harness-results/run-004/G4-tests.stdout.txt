@@ -1,0 +1,176 @@
+Build started 2026-11-15 12:18:26.
+     1>Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\SpendWise.sln" on node 1 (Restore target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Debug|Any CPU".
+       _GetAllRestoreProjectPathItems:
+         Determining projects to restore...
+       Restore:
+         X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+         X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+         Assets file has not changed. Skipping assets file writing. Path: C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Cli\obj\project.assets.json
+         Assets file has not changed. Skipping assets file writing. Path: C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Infrastructure\obj\project.assets.json
+         Assets file has not changed. Skipping assets file writing. Path: C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Core\obj\project.assets.json
+         Assets file has not changed. Skipping assets file writing. Path: C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\obj\project.assets.json
+         Restored C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Core\SpendWise.Core.csproj (in 56 ms).
+         Restored C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj (in 58 ms).
+         Restored C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Cli\SpendWise.Cli.csproj (in 56 ms).
+         Restored C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Infrastructure\SpendWise.Infrastructure.csproj (in 56 ms).
+         
+         NuGet Config files used:
+             C:\Users\karupakala.chethan\AppData\Roaming\NuGet\NuGet.Config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.FallbackLocation.config
+             C:\Program Files (x86)\NuGet\Config\Microsoft.VisualStudio.Offline.config
+         
+         Feeds used:
+             https://api.nuget.org/v3/index.json
+             C:\Users\karupakala.chethan\.nuget\packages
+             C:\Program Files (x86)\Microsoft SDKs\NuGetPackages\
+         All projects are up-to-date for restore.
+     1>Done Building Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\SpendWise.sln" (Restore target(s)).
+   1:2>Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\SpendWise.sln" on node 1 (VSTest target(s)).
+     1>ValidateSolutionConfiguration:
+         Building solution configuration "Debug|Any CPU".
+   1:2>Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\SpendWise.sln" (1:2) is building "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj" (5:6) on node 2 (VSTest target(s)).
+     5>BuildProject:
+         Build started, please wait...
+   5:6>Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj" (5:6) is building "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj" (5:7) on node 2 (default targets).
+   5:7>Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj" (5:7) is building "C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Core\SpendWise.Core.csproj" (3:10) on node 3 (default targets).
+     3>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link is empty, file 'obj\Debug\net8.0\SpendWise.Core.sourcelink.json' does not exist.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       GenerateBuildDependencyFile:
+       Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         SpendWise.Core -> C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Core\bin\Debug\net8.0\SpendWise.Core.dll
+     3>Done Building Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Core\SpendWise.Core.csproj" (default targets).
+   5:7>Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj" (5:7) is building "C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Infrastructure\SpendWise.Infrastructure.csproj" (4:10) on node 4 (default targets).
+     4>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link is empty, file 'obj\Debug\net8.0\SpendWise.Infrastructure.sourcelink.json' does not exist.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       GenerateBuildDependencyFile:
+       Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         SpendWise.Infrastructure -> C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Infrastructure\bin\Debug\net8.0\SpendWise.Infrastructure.dll
+     4>Done Building Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Infrastructure\SpendWise.Infrastructure.csproj" (default targets).
+     5>GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       CoreGenerateAssemblyInfo:
+       Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+       _GenerateSourceLinkFile:
+         Source Link is empty, file 'obj\Debug\net8.0\SpendWise.Tests.sourcelink.json' does not exist.
+       CoreCompile:
+       Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "C:\Users\karupakala.chethan\.nuget\packages\xunit.abstractions\2.0.3\lib\netstandard2.0\xunit.abstractions.dll" to "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\bin\Debug\net8.0\xunit.abstractions.dll".
+         Touching "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\obj\Debug\net8.0\SpendWis.DCE3A0C4.Up2Date".
+       _CopyOutOfDateSourceItemsToOutputDirectory:
+       Building target "_CopyOutOfDateSourceItemsToOutputDirectory" partially, because some output files are out of date with respect to their input files.
+         Copying file from "C:\Users\karupakala.chethan\.nuget\packages\xunit.runner.visualstudio\4.0.1\build\net8.0\xunit.abstractions.dll" to "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\bin\Debug\net8.0\xunit.abstractions.dll".
+       GenerateBuildDependencyFile:
+       Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+       GenerateBuildRuntimeConfigurationFiles:
+       Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+       CopyFilesToOutputDirectory:
+         SpendWise.Tests -> C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\bin\Debug\net8.0\SpendWise.Tests.dll
+     5>Done Building Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj" (default targets).
+     5>BuildProject:
+         Build completed.
+         
+Test run for C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\bin\Debug\net8.0\SpendWise.Tests.dll (.NETCoreApp,Version=v8.0)
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v4.0.1+0f7d528729 (64-bit .NET 8.0.11)
+[xUnit.net 00:00:00.09]   Discovering: SpendWise.Tests
+[xUnit.net 00:00:00.15]   Discovered:  SpendWise.Tests
+[xUnit.net 00:00:00.19]   Starting:    SpendWise.Tests
+  Passed SpendWise.Tests.ValidationTests.AddRejectsLongNoteUS24 [10 ms]
+  Passed SpendWise.Tests.ValidationTests.ListRejectsInvalidMonthEdgeCase(month: "2026-1") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.ListRejectsInvalidMonthEdgeCase(month: "nov") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.ListRejectsInvalidMonthEdgeCase(month: "2026-13") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.UnknownOptionAndMissingValueAreRejectedFR012 [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddAcceptsAmountBoundariesEdgeCase(amount: "0.01") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddAcceptsAmountBoundariesEdgeCase(amount: "1000000.00") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "10.999") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "abc") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: " 5") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "12,50") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "0") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "1000000.01") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "-5") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidAmountUS21(amount: "1e3") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddAcceptsDateBoundariesFR004(date: "2026-11-15") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddAcceptsDateBoundariesFR004(date: "2000-01-01") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddMissingRequiredOptionUS25 [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidDateUS23(date: "2026-1-5") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidDateUS23(date: "15/11/2026") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidDateUS23(date: "2026-11-16") [< 1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.DeleteRemovesExpenseUS31 [15 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidDateUS23(date: "2026-02-30") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsInvalidDateUS23(date: "1999-12-31") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddRejectsUnknownCategoryUS22 [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.AddAcceptsNoteOfExactly200FR005 [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.UnknownCommandOrMissingExitsWithValidationCodeFR012(command: "nothing") [< 1 ms]
+  Passed SpendWise.Tests.InfrastructureTests.UnwritableStoreIsStorageErrorFR013 [16 ms]
+  Passed SpendWise.Tests.ValidationTests.UnknownCommandOrMissingExitsWithValidationCodeFR012(command: "") [< 1 ms]
+  Passed SpendWise.Tests.ValidationTests.DeleteRejectsNonNumericIdFR007 [< 1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.ListEmptyPrintsNoExpensesFoundUS15 [1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.DeleteNeverReusesIdsUS32 [< 1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.ListOrdersByDateThenIdUS12 [1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.ListCombinesFiltersFR006 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryBudgetOnlyCategoryAppearsWithZeroSpentChangeHistory [22 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.AddStoresExpenseAndPrintsConfirmationUS11 [5 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.DeleteUnknownIdFailsUS33 [< 1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.ListFiltersByMonthUS14 [< 1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.NoteIsStoredVerbatimEdgeCase [< 1 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.AddDefaultsDateToTodayFR004 [2 ms]
+  Passed SpendWise.Tests.AddListDeleteTests.ListFiltersByCategoryUS13 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryStatusBoundariesUS43SC003(spent: "160.00", status: "WARNING") [13 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryStatusBoundariesUS43SC003(spent: "200.00", status: "WARNING") [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryStatusBoundariesUS43SC003(spent: "200.01", status: "EXCEEDED") [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryStatusBoundariesUS43SC003(spent: "159.99", status: "OK") [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryNoBudgetRowUS44 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryShowsSpentPercentAndStatusUS42 [< 1 ms]
+  Passed SpendWise.Tests.InfrastructureTests.CorruptStoreExitsWith2AndIsNotModifiedUS26SC005 [23 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.ListJsonIsValidFR011 [4 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryStatusUsesExactRatioNotRoundedPercentFR010 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryTotalIsExactDecimalSumAndRowsAlphabeticalUS46 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryJsonIsValidAndStableUS47 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.SummaryEmptyMonthUS45 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.BudgetSetValidatesInputsFR008 [< 1 ms]
+  Passed SpendWise.Tests.BudgetSummaryTests.BudgetSetPrintsAndOverwritesUS41 [< 1 ms]
+  Passed SpendWise.Tests.InfrastructureTests.StoreOutsideWorkingDirectoryIsRejectedFR015(path: "../escape.json") [10 ms]
+  Passed SpendWise.Tests.InfrastructureTests.StoreOutsideWorkingDirectoryIsRejectedFR015(path: "sub/../../escape.json") [3 ms]
+[xUnit.net 00:00:00.43]   Finished:    SpendWise.Tests
+  Passed SpendWise.Tests.InfrastructureTests.NullJsonStoreIsStorageErrorFR013 [6 ms]
+  Passed SpendWise.Tests.InfrastructureTests.StoreOptionWithoutValueIsRejectedFR015 [6 ms]
+  Passed SpendWise.Tests.InfrastructureTests.DataPersistsAcrossRunsFR013 [18 ms]
+  Passed SpendWise.Tests.InfrastructureTests.SameCommandSequenceProducesIdenticalOutputAndStoreSC004 [41 ms]
+  Passed SpendWise.Tests.InfrastructureTests.StoreOptionUsesGivenFileFR015 [5 ms]
+  Passed SpendWise.Tests.InfrastructureTests.IdsAreNotReusedAcrossProcessesFR007 [15 ms]
+  Passed SpendWise.Tests.InfrastructureTests.SecondSaveReplacesExistingFileFR013 [10 ms]
+  Passed SpendWise.Tests.InfrastructureTests.ListWith10000ExpensesCompletesUnder500msNFR005 [63 ms]
+  Passed SpendWise.Tests.InfrastructureTests.SystemClockReturnsCurrentDateFR014 [1 ms]
+
+Test Run Successful.
+Total tests: 67
+     Passed: 67
+ Total time: 1.0998 Seconds
+     5>Done Building Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\SpendWise.Tests.csproj" (VSTest target(s)).
+     1>Done Building Project "C:\Users\karupakala.chethan\Assignment-1\Part-1A\SpendWise.sln" (VSTest target(s)).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.85

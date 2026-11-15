@@ -1,0 +1,12 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  SpendWise.Core -> C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Core\bin\Debug\net8.0\SpendWise.Core.dll
+  SpendWise.Infrastructure -> C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Infrastructure\bin\Debug\net8.0\SpendWise.Infrastructure.dll
+  SpendWise.Tests -> C:\Users\karupakala.chethan\Assignment-1\Part-1A\tests\SpendWise.Tests\bin\Debug\net8.0\SpendWise.Tests.dll
+  SpendWise.Cli -> C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Cli\bin\Debug\net8.0\SpendWise.Cli.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.74

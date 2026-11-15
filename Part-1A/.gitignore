@@ -1,0 +1,9 @@
+bin/
+obj/
+*.tmp
+spendwise.json
+.env
+.env.*
+TestResults/
+*.user
+.vs/

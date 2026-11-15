@@ -1,0 +1,184 @@
+9c9
+<     public void Add_StoresExpenseAndPrintsConfirmation_US1_1()
+---
+>     public void AddStoresExpenseAndPrintsConfirmationUS11()
+21c21
+<     public void Add_DefaultsDateToToday_FR004()
+---
+>     public void AddDefaultsDateToTodayFR004()
+29c29
+<     public void List_OrdersByDateThenId_US1_2()
+---
+>     public void ListOrdersByDateThenIdUS12()
+43c43
+<     public void List_FiltersByCategory_US1_3()
+---
+>     public void ListFiltersByCategoryUS13()
+55c55
+<     public void List_FiltersByMonth_US1_4()
+---
+>     public void ListFiltersByMonthUS14()
+67c67
+<     public void List_CombinesFilters_FR006()
+---
+>     public void ListCombinesFiltersFR006()
+80c80
+<     public void List_EmptyPrintsNoExpensesFound_US1_5()
+---
+>     public void ListEmptyPrintsNoExpensesFoundUS15()
+87c87
+<     public void Delete_RemovesExpense_US3_1()
+---
+>     public void DeleteRemovesExpenseUS31()
+99c99
+<     public void Delete_NeverReusesIds_US3_2()
+---
+>     public void DeleteNeverReusesIdsUS32()
+111c111
+<     public void Delete_UnknownIdFails_US3_3()
+---
+>     public void DeleteUnknownIdFailsUS33()
+119c119
+<     public void Note_IsStoredVerbatim_EdgeCase()
+---
+>     public void NoteIsStoredVerbatimEdgeCase()
+16c16
+<     public void BudgetSet_PrintsAndOverwrites_US4_1()
+---
+>     public void BudgetSetPrintsAndOverwritesUS41()
+27c27
+<     public void Summary_ShowsSpentPercentAndStatus_US4_2()
+---
+>     public void SummaryShowsSpentPercentAndStatusUS42()
+46c46
+<     public void Summary_StatusBoundaries_US4_3_SC003(string spent, string status)
+---
+>     public void SummaryStatusBoundariesUS43SC003(string spent, string status)
+56c56
+<     public void Summary_StatusUsesExactRatioNotRoundedPercent_FR010()
+---
+>     public void SummaryStatusUsesExactRatioNotRoundedPercentFR010()
+69c69
+<     public void Summary_NoBudgetRow_US4_4()
+---
+>     public void SummaryNoBudgetRowUS44()
+80c80
+<     public void Summary_EmptyMonth_US4_5()
+---
+>     public void SummaryEmptyMonthUS45()
+88c88
+<     public void Summary_TotalIsExactDecimalSumAndRowsAlphabetical_US4_6()
+---
+>     public void SummaryTotalIsExactDecimalSumAndRowsAlphabeticalUS46()
+101c101
+<     public void Summary_BudgetOnlyCategoryAppearsWithZeroSpent_ChangeHistory()
+---
+>     public void SummaryBudgetOnlyCategoryAppearsWithZeroSpentChangeHistory()
+112c112
+<     public void Summary_JsonIsValidAndStable_US4_7()
+---
+>     public void SummaryJsonIsValidAndStableUS47()
+127c127
+<     public void ListJson_IsValid_FR011()
+---
+>     public void ListJsonIsValidFR011()
+139c139
+<     public void BudgetSet_ValidatesInputs_FR008()
+---
+>     public void BudgetSetValidatesInputsFR008()
+26c26
+<     public void Data_PersistsAcrossRuns_FR013()
+---
+>     public void DataPersistsAcrossRunsFR013()
+37c37
+<     public void SecondSave_ReplacesExistingFile_FR013()
+---
+>     public void SecondSaveReplacesExistingFileFR013()
+46c46
+<     public void IdsAreNotReusedAcrossProcesses_FR007()
+---
+>     public void IdsAreNotReusedAcrossProcessesFR007()
+56c56
+<     public void CorruptStore_ExitsWith2AndIsNotModified_US2_6_SC005()
+---
+>     public void CorruptStoreExitsWith2AndIsNotModifiedUS26SC005()
+73c73
+<     public void NullJsonStore_IsStorageError_FR013()
+---
+>     public void NullJsonStoreIsStorageErrorFR013()
+80c80
+<     public void StoreOption_UsesGivenFile_FR015()
+---
+>     public void StoreOptionUsesGivenFileFR015()
+91c91
+<     public void StoreOutsideWorkingDirectory_IsRejected_FR015(string path)
+---
+>     public void StoreOutsideWorkingDirectoryIsRejectedFR015(string path)
+99c99
+<     public void StoreOptionWithoutValue_IsRejected_FR015()
+---
+>     public void StoreOptionWithoutValueIsRejectedFR015()
+105c105
+<     public void UnwritableStore_IsStorageError_FR013()
+---
+>     public void UnwritableStoreIsStorageErrorFR013()
+112c112
+<     public void SameCommandSequence_ProducesIdenticalOutputAndStore_SC004()
+---
+>     public void SameCommandSequenceProducesIdenticalOutputAndStoreSC004()
+126c126
+<     public void ListWith10000Expenses_CompletesUnder500ms_NFR005()
+---
+>     public void ListWith10000ExpensesCompletesUnder500msNFR005()
+146c146
+<     public void SystemClock_ReturnsCurrentDate_FR014()
+---
+>     public void SystemClockReturnsCurrentDateFR014()
+16c16
+<     public void Add_RejectsInvalidAmount_US2_1(string amount)
+---
+>     public void AddRejectsInvalidAmountUS21(string amount)
+29c29
+<     public void Add_AcceptsAmountBoundaries_EdgeCase(string amount)
+---
+>     public void AddAcceptsAmountBoundariesEdgeCase(string amount)
+36c36
+<     public void Add_RejectsUnknownCategory_US2_2()
+---
+>     public void AddRejectsUnknownCategoryUS22()
+49c49
+<     public void Add_RejectsInvalidDate_US2_3(string date)
+---
+>     public void AddRejectsInvalidDateUS23(string date)
+59c59
+<     public void Add_AcceptsDateBoundaries_FR004(string date)
+---
+>     public void AddAcceptsDateBoundariesFR004(string date)
+66c66
+<     public void Add_RejectsLongNote_US2_4()
+---
+>     public void AddRejectsLongNoteUS24()
+74c74
+<     public void Add_AcceptsNoteOfExactly200_FR005()
+---
+>     public void AddAcceptsNoteOfExactly200FR005()
+81c81
+<     public void Add_MissingRequiredOption_US2_5()
+---
+>     public void AddMissingRequiredOptionUS25()
+92c92
+<     public void List_RejectsInvalidMonth_EdgeCase(string month)
+---
+>     public void ListRejectsInvalidMonthEdgeCase(string month)
+102c102
+<     public void UnknownCommandOrMissing_ExitsWithValidationCode_FR012(string command)
+---
+>     public void UnknownCommandOrMissingExitsWithValidationCodeFR012(string command)
+109c109
+<     public void UnknownOptionAndMissingValue_AreRejected_FR012()
+---
+>     public void UnknownOptionAndMissingValueAreRejectedFR012()
+117c117
+<     public void Delete_RejectsNonNumericId_FR007()
+---
+>     public void DeleteRejectsNonNumericIdFR007()

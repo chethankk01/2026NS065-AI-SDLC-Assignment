@@ -1,0 +1,13 @@
+﻿{
+    ".editorconfig":  "160ab693a52c35582841f19c663de3de6b8e898a1e42c51de1682be29d9f8760",
+    ".harness/CodeMetricsConfig.txt":  "833445c48a07c4eaac1b7553438cd6efe6b4965635898a6cebd5dcd51746dd44",
+    ".harness/run-harness.ps1":  "3252a2f635d2d7ce0fef59d044a82ee7431d201bd3d8827c852dd731d85e4ac6",
+    "Directory.Build.props":  "5733dd8fd322bb3361b41d7b658d4e7d956ece191e65c94fe1bca438c2ecc516",
+    "global.json":  "af43b6b46b8ace27eae86731f67ee2357562ea3ad655a3122fbcabf113352946",
+    "tests/SpendWise.Tests/AddListDeleteTests.cs":  "486e14759b677afc4d89220c3dbb335b23b3af5d43fbc99b1681a0f96cf38995",
+    "tests/SpendWise.Tests/BudgetSummaryTests.cs":  "d0467563233a7f9d7f9669637799f2a59a7bb446d578172450656492bc325413",
+    "tests/SpendWise.Tests/InfrastructureTests.cs":  "09cbc2bb7eb05ccbc39204e78cddbc234a7121eb17a920209686fcf989c184ca",
+    "tests/SpendWise.Tests/SpendWise.Tests.csproj":  "eec9c37f73fa4204d57711e2bcb2153ae0be02f09511edc0bdc457b8f01c7fd4",
+    "tests/SpendWise.Tests/TestSupport.cs":  "78636e1a65e4dbf3cca5b29d4fb5217bc6cb62f11109beb14da58a1eb4efd8d5",
+    "tests/SpendWise.Tests/ValidationTests.cs":  "3cdb8916320137cae553178e86f4b49bde1a7a6c6b735b44783bfaf95855b86d"
+}

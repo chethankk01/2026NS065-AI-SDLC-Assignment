@@ -1,0 +1,1 @@
+C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Cli\Program.cs(1,1): error CHARSET: Fix file encoding. [C:\Users\karupakala.chethan\Assignment-1\Part-1A\src\SpendWise.Cli\SpendWise.Cli.csproj]

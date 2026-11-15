@@ -1,0 +1,71 @@
+﻿{
+    "runId":  "run-002",
+    "timestamp":  "2026-11-15T11:48:21",
+    "overall":  "FAIL",
+    "dotnetSdk":  "8.0.307",
+    "gates":  [
+                  {
+                      "id":  "G1-build",
+                      "name":  "Build (syntax)",
+                      "command":  "dotnet build -warnaserror (analyzers off)",
+                      "exitCode":  0,
+                      "status":  "PASS",
+                      "note":  "exit 0",
+                      "evidence":  "evidence/harness-results/run-002/G1-build.stdout.txt"
+                  },
+                  {
+                      "id":  "G2-lint",
+                      "name":  "Lint (dotnet format)",
+                      "command":  "dotnet format --verify-no-changes",
+                      "exitCode":  0,
+                      "status":  "PASS",
+                      "note":  "exit 0",
+                      "evidence":  "evidence/harness-results/run-002/G2-lint.stdout.txt"
+                  },
+                  {
+                      "id":  "G3a-analyzers",
+                      "name":  "SAST (analyzers)",
+                      "command":  "dotnet build -warnaserror (security + complexity analyzers)",
+                      "exitCode":  0,
+                      "status":  "PASS",
+                      "note":  "exit 0",
+                      "evidence":  "evidence/harness-results/run-002/G3a-analyzers.stdout.txt"
+                  },
+                  {
+                      "id":  "G3b-packages",
+                      "name":  "SAST (packages)",
+                      "command":  "dotnet list package --vulnerable",
+                      "exitCode":  0,
+                      "status":  "PASS",
+                      "note":  "no vulnerable packages",
+                      "evidence":  "evidence/harness-results/run-002/G3b-packages.stdout.txt"
+                  },
+                  {
+                      "id":  "G4-tests",
+                      "name":  "Unit \u0026 contract tests",
+                      "command":  "dotnet test",
+                      "exitCode":  1,
+                      "status":  "FAIL",
+                      "note":  "passed=66 failed=1 skipped=0",
+                      "evidence":  "evidence/harness-results/run-002/G4-tests.stdout.txt"
+                  },
+                  {
+                      "id":  "G5-coverage",
+                      "name":  "Coverage \u003e= 85%",
+                      "command":  "dotnet test + coverlet threshold",
+                      "exitCode":  1,
+                      "status":  "FAIL",
+                      "note":  "line coverage=n/a% (exit 1)",
+                      "evidence":  "evidence/harness-results/run-002/G5-coverage.stdout.txt"
+                  },
+                  {
+                      "id":  "G6-integrity",
+                      "name":  "Test/config integrity",
+                      "command":  "SHA-256 vs .harness/baseline.json",
+                      "exitCode":  0,
+                      "status":  "PASS",
+                      "note":  "unchanged",
+                      "evidence":  "evidence/harness-results/run-002/G6-integrity.stdout.txt"
+                  }
+              ]
+}
