@@ -1,0 +1,135 @@
+{
+  "config": {
+    "model": "gemini-pro-latest",
+    "temperature": 0.2,
+    "maxOutputTokens": 4096,
+    "promptFile": "prompts/system-prompt.v1.txt",
+    "promptHash": "E914B64BEA8C",
+    "datasetFile": "evals/dataset.json",
+    "datasetHash": "2C942844F6E2",
+    "repeat": 1,
+    "judge": false,
+    "delayMs": 8000,
+    "timestampUtc": "2026-11-15T09:17:57Z"
+  },
+  "threshold": {
+    "semanticWeights": {
+      "category": 0.4,
+      "priority": 0.2,
+      "keyTerms": 0.4
+    },
+    "casePassSemanticMin": 0.70,
+    "meanSemanticMin": 0.80,
+    "overallPassPercentMin": 90,
+    "maxServiceErrorPercent": 20
+  },
+  "decision": "INCONCLUSIVE",
+  "aggregate": {
+    "totalCases": 3,
+    "scoredCases": 0,
+    "serviceErrors": 3,
+    "schemaValidRate": 0,
+    "invariantPassRate": 0,
+    "guardrailPassRate": 0,
+    "casePassRate": 0,
+    "meanSemanticScore": 0,
+    "meanJudgeScore": null,
+    "consistencyRate": null,
+    "failedConditions": [
+      "mean semantic score must be \u003E= 0.80"
+    ]
+  },
+  "cases": [
+    {
+      "id": "N01",
+      "type": "normal",
+      "tags": [
+        "normal"
+      ],
+      "requirements": [
+        "FR-001",
+        "INV-001",
+        "BP-001",
+        "BP-002",
+        "BP-003"
+      ],
+      "status": "SERVICE_ERROR",
+      "layers": {
+        "schema": {
+          "pass": false,
+          "violations": []
+        },
+        "invariants": {
+          "pass": null,
+          "violations": []
+        },
+        "semantic": null
+      },
+      "serviceError": "HTTP 429",
+      "rawOutput": ""
+    },
+    {
+      "id": "N02",
+      "type": "normal",
+      "tags": [
+        "normal"
+      ],
+      "requirements": [
+        "FR-001",
+        "INV-001",
+        "BP-001",
+        "BP-002",
+        "BP-003"
+      ],
+      "status": "SERVICE_ERROR",
+      "layers": {
+        "schema": {
+          "pass": false,
+          "violations": []
+        },
+        "invariants": {
+          "pass": null,
+          "violations": []
+        },
+        "semantic": null
+      },
+      "serviceError": "HTTP 429",
+      "rawOutput": ""
+    },
+    {
+      "id": "N03",
+      "type": "normal",
+      "tags": [
+        "normal"
+      ],
+      "requirements": [
+        "FR-001",
+        "INV-001",
+        "BP-001",
+        "BP-002",
+        "BP-003"
+      ],
+      "status": "SERVICE_ERROR",
+      "layers": {
+        "schema": {
+          "pass": false,
+          "violations": []
+        },
+        "invariants": {
+          "pass": null,
+          "violations": []
+        },
+        "semantic": null
+      },
+      "serviceError": "HTTP 429",
+      "rawOutput": ""
+    }
+  ],
+  "requirementCoverage": {
+    "BP-001": "N01:SERVICE_ERROR, N02:SERVICE_ERROR, N03:SERVICE_ERROR",
+    "BP-002": "N01:SERVICE_ERROR, N02:SERVICE_ERROR, N03:SERVICE_ERROR",
+    "BP-003": "N01:SERVICE_ERROR, N02:SERVICE_ERROR, N03:SERVICE_ERROR",
+    "FR-001": "N01:SERVICE_ERROR, N02:SERVICE_ERROR, N03:SERVICE_ERROR",
+    "INV-001": "N01:SERVICE_ERROR, N02:SERVICE_ERROR, N03:SERVICE_ERROR"
+  }
+}

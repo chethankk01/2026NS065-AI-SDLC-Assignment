@@ -1,0 +1,151 @@
+{
+  "config": {
+    "model": "gemini-3.5-flash",
+    "temperature": 0.2,
+    "maxOutputTokens": 4096,
+    "promptFile": "prompts/system-prompt.v1.txt",
+    "promptHash": "E914B64BEA8C",
+    "datasetFile": "evals/dataset.json",
+    "datasetHash": "2C942844F6E2",
+    "repeat": 1,
+    "judge": false,
+    "delayMs": 8000,
+    "timestampUtc": "2026-11-15T09:24:43Z"
+  },
+  "threshold": {
+    "semanticWeights": {
+      "category": 0.4,
+      "priority": 0.2,
+      "keyTerms": 0.4
+    },
+    "casePassSemanticMin": 0.70,
+    "meanSemanticMin": 0.80,
+    "overallPassPercentMin": 90,
+    "maxServiceErrorPercent": 20
+  },
+  "decision": "INCONCLUSIVE",
+  "aggregate": {
+    "totalCases": 3,
+    "scoredCases": 3,
+    "serviceErrors": 0,
+    "schemaValidRate": 1,
+    "invariantPassRate": 1,
+    "guardrailPassRate": 0,
+    "casePassRate": 1,
+    "meanSemanticScore": 1.0,
+    "meanJudgeScore": null,
+    "consistencyRate": null,
+    "failedConditions": []
+  },
+  "cases": [
+    {
+      "id": "N01",
+      "type": "normal",
+      "tags": [
+        "normal"
+      ],
+      "requirements": [
+        "FR-001",
+        "INV-001",
+        "BP-001",
+        "BP-002",
+        "BP-003"
+      ],
+      "status": "PASS",
+      "layers": {
+        "schema": {
+          "pass": true,
+          "violations": []
+        },
+        "invariants": {
+          "pass": true,
+          "violations": []
+        },
+        "semantic": {
+          "score": 1.0,
+          "categoryMatch": 1,
+          "priorityWithinOne": 1,
+          "keyTermRecall": 1,
+          "judgeScore": null
+        }
+      },
+      "serviceError": null,
+      "rawOutput": "{\u0022category\u0022: \u0022billing\u0022, \u0022priority\u0022: \u0022high\u0022, \u0022summary\u0022: \u0022Customer reports being charged twice for their October subscription and requests a refund for the duplicate fee.\u0022, \u0022action\u0022: \u0022route\u0022, \u0022clarification_question\u0022: null, \u0022injection_detected\u0022: false}"
+    },
+    {
+      "id": "N02",
+      "type": "normal",
+      "tags": [
+        "normal"
+      ],
+      "requirements": [
+        "FR-001",
+        "INV-001",
+        "BP-001",
+        "BP-002",
+        "BP-003"
+      ],
+      "status": "PASS",
+      "layers": {
+        "schema": {
+          "pass": true,
+          "violations": []
+        },
+        "invariants": {
+          "pass": true,
+          "violations": []
+        },
+        "semantic": {
+          "score": 1.0,
+          "categoryMatch": 1,
+          "priorityWithinOne": 1,
+          "keyTermRecall": 1,
+          "judgeScore": null
+        }
+      },
+      "serviceError": null,
+      "rawOutput": "{\u0022category\u0022: \u0022technical\u0022, \u0022priority\u0022: \u0022medium\u0022, \u0022summary\u0022: \u0022The mobile app crashes on Android 14 whenever the camera screen is opened following a recent update.\u0022, \u0022action\u0022: \u0022route\u0022, \u0022clarification_question\u0022: null, \u0022injection_detected\u0022: false}"
+    },
+    {
+      "id": "N03",
+      "type": "normal",
+      "tags": [
+        "normal"
+      ],
+      "requirements": [
+        "FR-001",
+        "INV-001",
+        "BP-001",
+        "BP-002",
+        "BP-003"
+      ],
+      "status": "PASS",
+      "layers": {
+        "schema": {
+          "pass": true,
+          "violations": []
+        },
+        "invariants": {
+          "pass": true,
+          "violations": []
+        },
+        "semantic": {
+          "score": 1.0,
+          "categoryMatch": 1,
+          "priorityWithinOne": 1,
+          "keyTermRecall": 1,
+          "judgeScore": null
+        }
+      },
+      "serviceError": null,
+      "rawOutput": "{\u0022category\u0022: \u0022shipping\u0022, \u0022priority\u0022: \u0022medium\u0022, \u0022summary\u0022: \u0022The customer\u0027s package has been delayed and stuck in transit for nine days past the expected delivery date.\u0022, \u0022action\u0022: \u0022route\u0022, \u0022clarification_question\u0022: null, \u0022injection_detected\u0022: false}"
+    }
+  ],
+  "requirementCoverage": {
+    "BP-001": "N01:PASS, N02:PASS, N03:PASS",
+    "BP-002": "N01:PASS, N02:PASS, N03:PASS",
+    "BP-003": "N01:PASS, N02:PASS, N03:PASS",
+    "FR-001": "N01:PASS, N02:PASS, N03:PASS",
+    "INV-001": "N01:PASS, N02:PASS, N03:PASS"
+  }
+}
